@@ -1,0 +1,36 @@
+# Environment variables (chứa mật khẩu — KHÔNG commit)
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# WordPress core (không track)
+wp-admin/
+wp-includes/
+wp-*.php
+index.php
+license.txt
+readme.html
+wp-config.php
+
+# Uploads
+wp-content/uploads/
+
+# Plugins (chỉ track custom)
+wp-content/plugins/*
+!wp-content/plugins/custom-*/
+
+# Themes (chỉ track child theme)
+wp-content/themes/*
+!wp-content/themes/woodmart-child/
+
+# Cache
+wp-content/cache/
+
+# Logs
+*.log
